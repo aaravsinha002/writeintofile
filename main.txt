@@ -1,0 +1,5 @@
+file= open("test.txt", "w")
+file.write("Hello\n")
+file.write("Hi\n")
+file.flush()
+file.close()
